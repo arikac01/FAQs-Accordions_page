@@ -1,0 +1,68 @@
+body{
+    background-image: url(/faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat; 
+    background-size:contain;
+    padding: 80px 0px;
+    display: grid;
+    justify-content: center;
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'WorkSans', sans-serif;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    max-width: 500px;
+    max-height: 500px;
+    display: grid;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    font-family: 'WorkSans', sans-serif;
+    box-shadow: 0 8px 10px 2px hsla(292, 16%, 49%, 0.1);
+}
+.section{
+    margin: 5px 0px;
+    border-bottom: 1.5px solid hsl(275, 100%, 97%);
+}
+p{
+    display:none;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    max-width: 400px;
+    font-family: 'WorkSans', sans-serif;
+}
+.labels{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label h4{
+    font-weight: 600;
+    color:hsl(292, 42%, 14%);
+}
+label h4:hover{
+    color:rgb(188, 35, 188);
+}
+.header{
+    display:flex;
+    align-items: center;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-style: normal; /* Adjust the style if it's different */
+  }
+  
+  .header h3 {
+    font-family: 'WorkSans', sans-serif; /* Use the defined font-family */
+    font-weight: 700;
+    font-size:45px;
+    margin: 0px;
+  }  
+
+#staricon{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
